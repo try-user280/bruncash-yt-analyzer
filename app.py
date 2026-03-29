@@ -17,7 +17,7 @@ except Exception as e:
 
 # Model setup (Updated Library ke saath ye 100% chalega)
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # --- 2. GOOGLE SHEETS SAVING ---
 def save_to_sheets(query, response_text):
